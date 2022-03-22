@@ -1,0 +1,44 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello there, my name is Greeny. How can I help?", "Good to see you again.My name is Greeny. how can I help?", "Hi there, my name is Greeny. How can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through how to place your order , navigate on our website","Payment methods", "Delivery options"],
+         "context": [""]
+        },
+        {"tag": "place_order",
+         "patterns": ["How to place an order?", "I want to place an order", "how to add items on cart", "How to check out" ],
+         "responses": ["Click on add to cart button next to a product and proceed to checkout by clicking on place order"],
+         "context": [""]
+        },
+        {"tag": "payment",
+         "patterns": ["How do I pay?", "Which payment methods are allowed?", "Can I pay via Mpesa?", "I want to pay" ],
+         "responses": ["You can pay via Mpesa and Pesapal platforms. To do that choose your desired payment method and follow the instructions carefully"],
+         "context": [""]
+        },
+        {"tag": "delivery",
+         "patterns": ["How will I receive my items?", "How do you deliver the products?", "Do you deliver the products?" ],
+         "responses": ["Yes, we offer delivery services and also click and collect options. When checking out please select your desired delivery option."],
+         "context": [""]
+        }
+
+   ]
+}
